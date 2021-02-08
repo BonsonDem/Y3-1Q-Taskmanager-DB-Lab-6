@@ -32,6 +32,7 @@ function loadTasksfromDB() {
           const link = document.createElement('a');                        // Create new element for the link 
           link.className = 'delete-item secondary-content';          // Add class and the x marker for a 
           link.innerHTML = '<i class="fa fa-remove"> </i>';
+          link.innerHTML = '<i class="fa fa-edit"></i>';
           li.appendChild(link);                                                    // Append link to li
           taskList.appendChild(li);                                            // Append to UL 
         });
